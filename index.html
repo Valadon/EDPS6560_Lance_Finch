@@ -5,28 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
     <title>Lance Finch Bio</title>
-    <link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
   </head>
   <body>
     <!-- Name and Bio Picture -->
-    <div id="name">
+    <div class=container>
+	<div class="row">
+	<div id="name" class="col">
       <h1>Lance Finch</h1>
     </div>
-    <div id="bio picture">
+    <div  class="col">
+	<div id="bio picture">
       <img src="LanceCam.jpg" alt="Lance with a camera" width="500" height="600">
     </div>
     <!-- a super important quote to make me look relatable -->
     <div id="quote">
-      <p><em>You miss 100% of the shots you don't take.</em> -Wayne Gretsky - Michael Scott - Lance Finch</p>
+      <p><em>-You miss 100% of the shots you don't take.</em> -Wayne Gretsky - Michael Scott - Lance Finch</p>
     </div>
+	</div>
+	<div class="w-100">
     <!-- My bio becuase I am very important -->
-    <div id="Bio">
+    <div id="Bio" class="col">
       <p>Hi everyone! My name is <strong>Lance Finch</strong>, I work at the S.J. Quinney College of Law. I have an bachlors degree in photography and am working on my masters in intructional design and educational technologly</p>
-      <p>We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Checkmate...
+      <p id="jeffsum" class="col">We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! Forget the fat lady! You're obsessed with the fat lady! Drive us out of here! Checkmate...
 
       Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. Must go faster. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? Is this my espresso machine? Wh-what is-h-how did you get my espresso machine?
 
@@ -35,8 +38,10 @@
       So you two dig up, dig up dinosaurs? They're using our own satellites against us. And the clock is ticking. We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
 
       You really think you can fly that thing? Jaguar shark! So tell me - does it really exist? My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard! Hey, you know how I'm, like, always trying to save the planet? Here's my chance.</p>
-      <!-- This is a list becuase I have to show that I can make a list -->
-      <ul>
+      </div>
+	  <!-- This is a list becuase I have to show that I can make a list -->
+      <div class="col">
+	  <ul>
         <li>a</li>
         <li>list</li>
         <li>that</li>
@@ -44,9 +49,9 @@
         <li>a</li>
         <li>list</li>
       </ul>
-    
+	</div>
     </div>
-    
+    </div>
       <!-- Links are fun for everyone -->
     <div id="fun links">
       <p>Some links that you can click on if you <em>really</em> want to</p>
@@ -54,7 +59,7 @@
       <br>
       <a href="why.html">A link to an internal site, how exciting</a>
     </div>
-    
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
