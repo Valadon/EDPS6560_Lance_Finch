@@ -1,10 +1,30 @@
-background: linear-gradient(-45deg, #35577D, #141E30);
+body{
+background: linear-gradient(-45deg, #35577D, #6fa8dc);
   margin: 0;
-  padding: 0;
-
+  padding: 25px;
+}
 h1 {
   color: #FFF;
-  font-size: 2em;
-  padding-top: 100px;
+  font-size: 5em;
   width: 100%;
 }
+
+#quote p{
+  color: #2b2a2a;
+  font-style: italic;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;  
+}
+p{
+  font-family: helvetica; 
+  color: #FFF;  
+	
+}
+#jeffsum{
+  font-family: "Comic Sans MS", "Comic Sans", cursive; 
+  color: #dadada; 	
+}
+
+ul li{
+	color: #ffb7b7;  
+}
+
