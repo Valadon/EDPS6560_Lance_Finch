@@ -28,3 +28,16 @@ ul li{
 	color: #ffb7b7;  
 }
 
+a {
+    color: floralwhite;
+    text-decoration: underline;
+    
+}
+.col {
+    float:left;
+}
+#contact a{
+color: #FFF;
+font-size: 3.5em;
+width: 100%;
+}
