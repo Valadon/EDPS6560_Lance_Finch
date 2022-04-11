@@ -4,7 +4,7 @@ background: linear-gradient(-45deg, #35577D, #6fa8dc);
   padding: 25px;
 }
 h1 {
-  color: #FFF;
+  color: #fff;
   font-size: 5em;
   width: 100%;
 }
@@ -12,15 +12,15 @@ h1 {
 #quote p{
   color: #2b2a2a;
   font-style: italic;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;  
+  font-family: Arial, Helvetica, sans-serif;
 }
 p{
-  font-family: helvetica; 
+  font-family: Arial, Helvetica, sans-serif;
   color: #FFF;  
 	
 }
 #jeffsum{
-  font-family: "Comic Sans MS", "Comic Sans", cursive; 
+  font-family: Arial, Helvetica, sans-serif;
   color: #dadada; 	
 }
 
@@ -33,9 +33,11 @@ a {
     text-decoration: underline;
     
 }
-.col {
-    float:left;
-}
+   .col{
+     
+        position: fluid;
+        
+    }
 #contact a{
 color: #FFF;
 font-size: 3.5em;
