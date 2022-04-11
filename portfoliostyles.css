@@ -1,0 +1,85 @@
+body{
+    background-color: #5278a3;
+  margin: 0;
+  padding: 25px;
+}
+.main{
+    font-size: 30px;
+    background-color: #5278a3;
+    padding: 1px;
+    position:relative;
+    height: 30vh;
+}
+
+    .title{
+        background-color: #eb8934;
+        position: sticky;
+        top: 0px;
+        font-family: 'Reggae One', cursive;
+        justify-content: space-around;
+    }
+
+    .bird{
+        background-image:url("bird.png");
+        background-size: 300px auto;
+        background-repeat:no-repeat;
+        background-position: center;
+        position: absolute;
+        top: -65px;
+        right: 50px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .wildlife_title{
+        color: #000000;
+        position: absolute;
+        top: auto;
+        left: 25px;
+        font-family: 'Reggae One', cursive;
+        justify-content: space-around;
+    }
+
+.flexbox-container{
+
+    border: 3px solid #eb8934;
+    font-size: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+    .flexbox-item{
+        width: 300px;
+        margin: 10px;
+        border: 3px solid #333;
+        background-color: #dfdfdf;
+        text-align: center;
+        justify-items: center;
+        font-family: 'Reggae One', cursive;
+    
+        }
+
+        .flexbox-item-1{ 
+            min-width: 500px;
+            border: 20px solid #000000;
+        }
+
+        .flexbox-item-2{
+            min-width: 500px;
+            padding: 10px;
+            border: 10px solid #000000;
+        }
+
+        .flexbox-item-3{ 
+            padding: 10px;
+            border: 10px solid #000000;
+           
+        }
+
+
+
+   
+
